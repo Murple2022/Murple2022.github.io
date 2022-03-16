@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.a532a561045559c7790ab747daa76564.js"
+  "/precache-manifest.6d0df7902991e4de43eee2b2acffed25.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "vue-argon-design-system"});
