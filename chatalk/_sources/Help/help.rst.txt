@@ -1,0 +1,21 @@
+Help
+====
+
+FAQ
+----
+
+.. toctree::
+    :maxdepth: 1
+
+    faq.md
+
+..
+
+Error guide
+-----------
+
+.. toctree::
+    :maxdepth: 1
+
+    error_guide.md
+

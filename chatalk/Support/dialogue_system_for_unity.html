@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html  lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+      <title>Dialogue System for Unity</title>
+    
+          <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+          <link rel="stylesheet" href="../_static/theme.css " type="text/css" />
+      
+      <!-- sphinx script_files -->
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+
+      
+      <!-- bundled in js (rollup iife) -->
+      <!-- <script src="../_static/theme-vendors.js"></script> -->
+      <script src="../_static/theme.js" defer></script>
+    
+  <link rel="index" title="Index" href="../genindex.html" />
+  <link rel="search" title="Search" href="../search.html" />
+  <link rel="next" title="Help" href="../Help/help.html" />
+  <link rel="prev" title="Third party support" href="support.html" /> 
+  </head>
+
+  <body>
+    <div id="app">
+    <div class="theme-container" :class="pageClasses"><navbar @toggle-sidebar="toggleSidebar">
+  <router-link to="../index.html" class="home-link">
+    
+      <span class="site-name">Murple Chatalk</span>
+    
+  </router-link>
+
+  <div class="links">
+    <navlinks class="can-hide">
+
+
+
+    </navlinks>
+  </div>
+</navbar>
+
+      
+      <div class="sidebar-mask" @click="toggleSidebar(false)">
+      </div>
+        <sidebar @toggle-sidebar="toggleSidebar">
+          
+          <navlinks>
+            
+
+
+
+            
+          </navlinks><div id="searchbox" class="searchbox" role="search">
+  <div class="caption"><span class="caption-text">Quick search</span>
+    <div class="searchformwrapper">
+      <form class="search" action="../search.html" method="get">
+        <input type="text" name="q" />
+        <input type="submit" value="Search" />
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+      </form>
+    </div>
+  </div>
+</div><div class="sidebar-links" role="navigation" aria-label="main navigation">
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="../index.html#welcome-to-murple-chatalk-s-documentation">Overview</a></span>
+      </p>
+      <ul class="">
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../PackageInstallation/package_installation.html" class="reference internal ">Package Installation</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../PackageConfiguration/package_configuration.html" class="reference internal ">Package Configuration</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../HowToGetAPIKey/how_to_get_api_key.html" class="reference internal ">How to Get API Key?</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../TryItTutorial/try_it_tutorial.html" class="reference internal ">Quick Start</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="support.html" class="reference internal ">Third party support</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../Help/help.html" class="reference internal ">Help</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../ReleaseNote/release_note.html" class="reference internal ">Release Note</a>
+            
+
+            
+          </li>
+
+        
+      </ul>
+    </div>
+  
+</div>
+        </sidebar>
+
+      <page>
+          <div class="body-header" role="navigation" aria-label="navigation">
+  
+  <ul class="breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+    
+      <li><a href="support.html">Third party support</a> &raquo;</li>
+    
+    <li>Dialogue System for Unity</li>
+  </ul>
+  
+
+  <ul class="page-nav">
+  <li class="prev">
+    <a href="support.html"
+       title="previous chapter">← Third party support</a>
+  </li>
+  <li class="next">
+    <a href="../Help/help.html"
+       title="next chapter">Help →</a>
+  </li>
+</ul>
+  
+</div>
+<hr>
+          <div class="content" role="main" v-pre>
+            
+  <section id="dialogue-system-for-unity">
+<h1>Dialogue System for Unity<a class="headerlink" href="#dialogue-system-for-unity" title="Permalink to this heading">¶</a></h1>
+<section id="install-packages">
+<h2>Install packages<a class="headerlink" href="#install-packages" title="Permalink to this heading">¶</a></h2>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This package is a supplement package to support Pixel Crushers’ <a class="reference external" href="https://assetstore.unity.com/packages/tools/behavior-ai/dialogue-system-for-unity-11672">Dialogue System for Unity</a>.
+The package must be included in your project. (If not, some script error occurs)</p>
+</div>
+<p><img alt="Wizard Install" src="../_images/dialogue_system_for_unity_install_01.png" /></p>
+<p>Import supplement package at <code class="docutils literal notranslate"><span class="pre">Assets/Plugins/Pixel</span> <span class="pre">Crushers/Dialogue</span> <span class="pre">System/Scripts/DialogueSystemAssemblyDefinitions.unitypackage</span></code> to setup assembly definition</p>
+<br>
+<p><img alt="Wizard Install" src="../_images/dialogue_system_for_unity_install_03.png" /></p>
+<p>Next, import supplement package at <code class="docutils literal notranslate"><span class="pre">Assets/Murple/Chatalk/ThirdPartySupport/Support_DialogueSystemForUnity.unitypackage</span></code></p>
+<br>
+<p><img alt="Wizard Install" src="../_images/dialogue_system_for_unity_install_04.png" /></p>
+<p>You can find Chatalk menu in <code class="docutils literal notranslate"><span class="pre">Winodw</span> <span class="pre">-&gt;</span> <span class="pre">Murple</span> <span class="pre">-&gt;</span> <span class="pre">Chatalk</span> <span class="pre">-&gt;</span> <span class="pre">Support</span> <span class="pre">-&gt;</span> <span class="pre">Dialgoue</span> <span class="pre">System</span> <span class="pre">for</span> <span class="pre">Unity</span></code> when installation is complete.</p>
+<br>
+</section>
+<section id="open-wizard-window">
+<h2>Open wizard window<a class="headerlink" href="#open-wizard-window" title="Permalink to this heading">¶</a></h2>
+<p><img alt="Wizard Path" src="../_images/dialogue_system_for_unity_wizard_01.png" /></p>
+<p>Open Dialogue System for Unity Wizard from <code class="docutils literal notranslate"><span class="pre">Window</span> <span class="pre">-&gt;</span> <span class="pre">Murple</span> <span class="pre">-&gt;</span> <span class="pre">Chatalk</span> <span class="pre">-&gt;</span> <span class="pre">Support</span> <span class="pre">-&gt;</span> <span class="pre">Dialogue</span> <span class="pre">System</span> <span class="pre">for</span> <span class="pre">Unity</span></code>
+<br></p>
+<section id="initialize-step">
+<h3>Initialize step<a class="headerlink" href="#initialize-step" title="Permalink to this heading">¶</a></h3>
+<p><img alt="Wizard Chatalk Database" src="../_images/dialogue_system_for_unity_wizard_02.png" /></p>
+<p>If this is first time to use Chatalk, or database asset of Chatalk is missing, you should make Chatalk database asset.
+Make database asset to click <code class="docutils literal notranslate"><span class="pre">Create</span> <span class="pre">Database</span></code> button. If there is already database, please select your database.</p>
+<br>
+<p><img alt="Wizard DialogueSystem Page" src="../_images/dialogue_system_for_unity_wizard_03.png" /></p>
+<p>Select <code class="docutils literal notranslate"><span class="pre">Controller</span></code> GameObject and <code class="docutils literal notranslate"><span class="pre">Database</span></code> Asset of  Dialogue System to apply Chatalk.
+If you select vaild GameObject and Asset, you can proceed to next step.</p>
+<p>This tutorial uses the <strong>DemoScene</strong>(<strong>DemoScene1.unity</strong>) from the Dialogue System for Unity. Please select <code class="docutils literal notranslate"><span class="pre">Controller</span></code> and <code class="docutils literal notranslate"><span class="pre">Database</span></code> used in the demo scene.</p>
+<br>
+</section>
+<section id="actor-step">
+<h3>Actor step<a class="headerlink" href="#actor-step" title="Permalink to this heading">¶</a></h3>
+<p><img alt="Wizard Actor Page" src="../_images/dialogue_system_for_unity_wizard_04.png" /></p>
+<p>Select <code class="docutils literal notranslate"><span class="pre">Actor</span></code> who want to make him/her/its <em>talking</em> using Chatalk.
+For this tutorial, select <strong>Private Hart</strong>. In the tutorial, we change the Sprite to apply Chatalk.</p>
+<p>If you select vaild <code class="docutils literal notranslate"><span class="pre">Actor</span></code> (has valid sprite or texture that describe actor’s appearance), you can proceed to next step.</p>
+<br>
+</section>
+<section id="conversation-step">
+<h3>Conversation step<a class="headerlink" href="#conversation-step" title="Permalink to this heading">¶</a></h3>
+<p><img alt="Wizard Conversation Page" src="../_images/dialogue_system_for_unity_wizard_05.png" /></p>
+<p>A list of <code class="docutils literal notranslate"><span class="pre">Conversations</span></code> that <code class="docutils literal notranslate"><span class="pre">Actor</span></code> involved will appear at left. Becuase Chatalk makes talking animation using audio, you can select only <code class="docutils literal notranslate"><span class="pre">Conversation</span></code> that contains audio file.
+If you select <code class="docutils literal notranslate"><span class="pre">Conversations</span></code> that has audio files, you can proceed to generation step.</p>
+<br>
+</section>
+<section id="api-key">
+<h3>API Key<a class="headerlink" href="#api-key" title="Permalink to this heading">¶</a></h3>
+<p><img alt="Wizard API Key Setting" src="../_images/dialogue_system_for_unity_wizard_06.png" /></p>
+<p>If you did not regist your Chatalk API key, the <code class="docutils literal notranslate"><span class="pre">API</span> <span class="pre">Key</span></code> input field will appear.
+Enter your Chatalk API key and click the <code class="docutils literal notranslate"><span class="pre">Save</span></code> button to proceed.
+If you do not have Chatalk API key, please read <a class="reference internal" href="../HowToGetAPIKey/how_to_get_api_key.html"><span class="std std-doc">How to Get API Key?</span></a> page.</p>
+<br>
+</section>
+<section id="generation-step">
+<h3>Generation Step<a class="headerlink" href="#generation-step" title="Permalink to this heading">¶</a></h3>
+<p><img alt="Wizard Generate Page Requested" src="../_images/dialogue_system_for_unity_wizard_07.png" /></p>
+<p>You can proceed with batch request operation by clicking the <code class="docutils literal notranslate"><span class="pre">Generate</span></code> button.</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p>Chatalk Info</p></th>
+<th class="head text-left"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p>UserName</p></td>
+<td class="text-left"><p>UserName of API key</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>UserEmail</p></td>
+<td class="text-left"><p>UserEmail of API key</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p>Settings</p></td>
+<td class="text-left"><p>Show input field to change API key</p></td>
+</tr>
+</tbody>
+</table>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p>Chatalk Request</p></th>
+<th class="head text-left"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p>Image</p></td>
+<td class="text-left"><p>Portrait image of selected Actor</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>Actor</p></td>
+<td class="text-left"><p>Name of selected Actor</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p>Conversation</p></td>
+<td class="text-left"><p>Title of selected Conversation</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>Entry Count</p></td>
+<td class="text-left"><p>Number of entries to apply Chatalk</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p>Total Audio Length</p></td>
+<td class="text-left"><p>Total audio length</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>Remove exist task</p></td>
+<td class="text-left"><p>If there is already a task that using same Actor and Conversation, you have to remove previous task to re-generate animation.</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p>Generate</p></td>
+<td class="text-left"><p>Send multiple request to generate animation</p></td>
+</tr>
+</tbody>
+</table>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p>Job List</p></th>
+<th class="head text-left"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p>Refresh</p></td>
+<td class="text-left"><p>Refresh your job list</p></td>
+</tr>
+</tbody>
+</table>
+<br>
+<p><img alt="Wizard Task Jump" src="../_images/dialogue_system_for_unity_wizard_08.png" /></p>
+<p>Generate takes time. Do not worry. You can close wizard window to process your work and can resume Chatalk task at first step by clicking <code class="docutils literal notranslate"><span class="pre">▶</span></code> button.</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p>UI</p></th>
+<th class="head text-left"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p>▶</p></td>
+<td class="text-left"><p>Go to the Generate Page with the previously task</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>X</p></td>
+<td class="text-left"><p>Delete previously task</p></td>
+</tr>
+</tbody>
+</table>
+<br>
+<p><img alt="Wizard Generate Page Done" src="../_images/dialogue_system_for_unity_wizard_09.png" /></p>
+<p>If all generation jobs are completed, you can proceed by clicking the <code class="docutils literal notranslate"><span class="pre">Next</span></code> button.</p>
+<br>
+</section>
+<section id="apply-step">
+<h3>Apply Step<a class="headerlink" href="#apply-step" title="Permalink to this heading">¶</a></h3>
+<p><img alt="Wizard Apply Page" src="../_images/dialogue_system_for_unity_wizard_10.png" /></p>
+<p>When you enter the Apply Page, all mp4 files of the task are downloaded.
+You need to select <code class="docutils literal notranslate"><span class="pre">UI</span> <span class="pre">Prefab</span></code> to apply Chatalk video player.
+The prefab must contain <code class="docutils literal notranslate"><span class="pre">Standard</span> <span class="pre">Dialogue</span> <span class="pre">UI</span> <span class="pre">components</span></code> and <code class="docutils literal notranslate"><span class="pre">Portrait</span> <span class="pre">Image</span></code>.</p>
+<p>If all mp4 files are downloaded and you select valid <code class="docutils literal notranslate"><span class="pre">UI</span> <span class="pre">Prefab</span></code>, the message <code class="docutils literal notranslate"><span class="pre">Ready.</span></code> will appear and you can apply it by clicking the <code class="docutils literal notranslate"><span class="pre">Apply</span></code> button.</p>
+<p>In the tutorial, <code class="docutils literal notranslate"><span class="pre">Wheel</span> <span class="pre">Standard</span> <span class="pre">Dialogue</span> <span class="pre">UI</span> <span class="pre">Prefab</span></code> used in <code class="docutils literal notranslate"><span class="pre">DemoScene1.unity</span></code> was used.</p>
+<br>
+<p><img alt="Wizard Done" src="../_images/dialogue_system_for_unity_wizard_11.png" /></p>
+<p>When application is complete, a completion message will appear.</p>
+<br>
+</section>
+</section>
+<section id="result">
+<h2>Result<a class="headerlink" href="#result" title="Permalink to this heading">¶</a></h2>
+<p><img alt="Applied Scene" src="../_images/dialogue_system_for_unity_wizard_12.gif" /></p>
+<p>This is the play capture using Chatalk animation.
+In order to view the Chatalk animation larger, we adjusted the size and position of the <strong>Portrait Image UI</strong> in <strong>DemoScene1.unity</strong>.</p>
+<br>
+</section>
+</section>
+
+
+          </div>
+          <div class="page-nav">
+            <div class="inner"><ul class="page-nav">
+  <li class="prev">
+    <a href="support.html"
+       title="previous chapter">← Third party support</a>
+  </li>
+  <li class="next">
+    <a href="../Help/help.html"
+       title="next chapter">Help →</a>
+  </li>
+</ul><div class="footer" role="contentinfo">
+      &#169; Copyright 2023, Murple.
+    <br>
+    Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.3.0 with <a href="https://github.com/schettino72/sphinx_press_theme">Press Theme</a> 0.8.0.
+</div>
+            </div>
+          </div>
+      </page>
+    </div></div>
+    
+    
+  </body>
+</html>

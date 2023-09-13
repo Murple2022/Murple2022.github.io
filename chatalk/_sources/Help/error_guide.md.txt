@@ -1,0 +1,22 @@
+# Errors Guide
+
+### 401 Unauthorized
+
+API Key is invalid. Please check again.
+
+
+### 402 Payment Required
+
+Your account has reached its usage limit.
+
+
+### 413 Payload Too Large
+
+If you use too large file(image or audio), 413 error occurs.
+Resize character image or slice audio file and try again.
+
+
+### 5xx server errors
+
+A problem has occurred with the server. Please try again later.
+If the same problem repeats, please contact us.

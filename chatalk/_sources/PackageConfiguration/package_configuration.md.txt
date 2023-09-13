@@ -1,0 +1,28 @@
+# Package Configuration
+
+
+```{note}
+This page do not describe script of Chatalk.
+It only explain directories that need to know to use Chatalk.
+```
+  
+
+    Assets
+    └── Murple
+        ├── Chatalk
+        │  ├── Scripts
+        │  └── ThirdPartySupport
+        ├── Common
+        └── Resources
+
+|Path|Description|
+|:---|:---|
+|``Assets/Murple/Chatalk/ThirdPartySupport/``|There are .unitypackage supporting third-party assets.|
+|``Assets/Murple/Resources/``|Database assets for Chatalk and generated video assets are stored in this directory.|
+
+<br>
+
+* If you want to know how to install Chatalk package, read [Installation](../PackageInstallation/package_installation.md).
+* If you want to find which assets are supported, read [Third party support](../Support/support.rst).
+
+<br>

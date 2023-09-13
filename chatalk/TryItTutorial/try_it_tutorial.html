@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html  lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+      <title>Quick Start</title>
+    
+          <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+          <link rel="stylesheet" href="../_static/theme.css " type="text/css" />
+      
+      <!-- sphinx script_files -->
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/sphinx_highlight.js"></script>
+
+      
+      <!-- bundled in js (rollup iife) -->
+      <!-- <script src="../_static/theme-vendors.js"></script> -->
+      <script src="../_static/theme.js" defer></script>
+    
+  <link rel="index" title="Index" href="../genindex.html" />
+  <link rel="search" title="Search" href="../search.html" />
+  <link rel="next" title="Third party support" href="../Support/support.html" />
+  <link rel="prev" title="How to Get API Key?" href="../HowToGetAPIKey/how_to_get_api_key.html" /> 
+  </head>
+
+  <body>
+    <div id="app">
+    <div class="theme-container" :class="pageClasses"><navbar @toggle-sidebar="toggleSidebar">
+  <router-link to="../index.html" class="home-link">
+    
+      <span class="site-name">Murple Chatalk</span>
+    
+  </router-link>
+
+  <div class="links">
+    <navlinks class="can-hide">
+
+
+
+    </navlinks>
+  </div>
+</navbar>
+
+      
+      <div class="sidebar-mask" @click="toggleSidebar(false)">
+      </div>
+        <sidebar @toggle-sidebar="toggleSidebar">
+          
+          <navlinks>
+            
+
+
+
+            
+          </navlinks><div id="searchbox" class="searchbox" role="search">
+  <div class="caption"><span class="caption-text">Quick search</span>
+    <div class="searchformwrapper">
+      <form class="search" action="../search.html" method="get">
+        <input type="text" name="q" />
+        <input type="submit" value="Search" />
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+      </form>
+    </div>
+  </div>
+</div><div class="sidebar-links" role="navigation" aria-label="main navigation">
+  
+    <div class="sidebar-group">
+      <p class="caption">
+        <span class="caption-text"><a href="../index.html#welcome-to-murple-chatalk-s-documentation">Overview</a></span>
+      </p>
+      <ul class="current">
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../PackageInstallation/package_installation.html" class="reference internal ">Package Installation</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../PackageConfiguration/package_configuration.html" class="reference internal ">Package Configuration</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../HowToGetAPIKey/how_to_get_api_key.html" class="reference internal ">How to Get API Key?</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 current">
+            
+              <a href="#" class="reference internal current">Quick Start</a>
+            
+
+            
+              <ul>
+                
+                  <li class="toctree-l2"><a href="#get-started" class="reference internal">Get Started</a></li>
+                
+                  <li class="toctree-l2"><a href="#request" class="reference internal">Request</a></li>
+                
+                  <li class="toctree-l2"><a href="#download" class="reference internal">Download</a></li>
+                
+              </ul>
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../Support/support.html" class="reference internal ">Third party support</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../Help/help.html" class="reference internal ">Help</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../ReleaseNote/release_note.html" class="reference internal ">Release Note</a>
+            
+
+            
+          </li>
+
+        
+      </ul>
+    </div>
+  
+</div>
+        </sidebar>
+
+      <page>
+          <div class="body-header" role="navigation" aria-label="navigation">
+  
+  <ul class="breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+    
+    <li>Quick Start</li>
+  </ul>
+  
+
+  <ul class="page-nav">
+  <li class="prev">
+    <a href="../HowToGetAPIKey/how_to_get_api_key.html"
+       title="previous chapter">← How to Get API Key?</a>
+  </li>
+  <li class="next">
+    <a href="../Support/support.html"
+       title="next chapter">Third party support →</a>
+  </li>
+</ul>
+  
+</div>
+<hr>
+          <div class="content" role="main" v-pre>
+            
+  <section id="quick-start">
+<h1>Quick Start<a class="headerlink" href="#quick-start" title="Permalink to this heading">¶</a></h1>
+<section id="get-started">
+<h2>Get Started<a class="headerlink" href="#get-started" title="Permalink to this heading">¶</a></h2>
+<p><img alt="Chatalk Menu Path" src="../_images/quick_start_01.png" /></p>
+<p>Open Chatalk window from <code class="docutils literal notranslate"><span class="pre">Window</span> <span class="pre">-&gt;</span> <span class="pre">Murple</span> <span class="pre">-&gt;</span> <span class="pre">Chatalk</span> <span class="pre">-&gt;</span> <span class="pre">Chatalk</span> <span class="pre">Tool</span></code></p>
+<p><img alt="Chatalk Database" src="../_images/quick_start_02.png" /></p>
+<p>If this is first time to use Chatalk, or database asset of Chatalk is missing, you should make Chatalk database asset.
+Make database asset to click <code class="docutils literal notranslate"><span class="pre">Create</span> <span class="pre">Database</span></code> button. If there is already database, please select your database.</p>
+<p><img alt="Chatalk API Key Setting" src="../_images/quick_start_03.png" /></p>
+<p>If you did not regist your Chatalk API key, the <code class="docutils literal notranslate"><span class="pre">API</span> <span class="pre">Key</span></code> input field will appear.
+Enter your Chatalk API key and click the <code class="docutils literal notranslate"><span class="pre">Save</span></code> button to proceed.
+If you do not have Chatalk API key, please read <a class="reference internal" href="../HowToGetAPIKey/how_to_get_api_key.html"><span class="std std-doc">How to Get API Key?</span></a> page.</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p>UI label</p></th>
+<th class="head text-left"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p>API Key</p></td>
+<td class="text-left"><p>Your Chatalk API key</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>Save</p></td>
+<td class="text-left"><p>Save the API key and proceed</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p>How to Get API Key?</p></td>
+<td class="text-left"><p>Open sign up window</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>?</p></td>
+<td class="text-left"><p>Open <a class="reference internal" href="../index.html"><span class="std std-doc">Chatalk Document</span></a></p></td>
+</tr>
+</tbody>
+</table>
+<p><img alt="Chatalk Tool" src="../_images/quick_start_04.png" /></p>
+<p>If you save valid API key, the Chatalk tool window appear. You can generate talking animation with this window.</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p>Chatalk Info</p></th>
+<th class="head text-left"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p>UserName</p></td>
+<td class="text-left"><p>UserName of API key</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>UserEmail</p></td>
+<td class="text-left"><p>UserEmail of API key</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p>Settings</p></td>
+<td class="text-left"><p>Show input field to change API key</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>?</p></td>
+<td class="text-left"><p>Open <a class="reference internal" href="../index.html"><span class="std std-doc">Chatalk Document</span></a></p></td>
+</tr>
+</tbody>
+</table>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p>Request</p></th>
+<th class="head text-left"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p>Request Name</p></td>
+<td class="text-left"><p>name for identify each request <strong><span style="color:red">(required)</span></strong></p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>Audio Clip</p></td>
+<td class="text-left"><p>AudioClip that contains speech <strong><span style="color:red">(required)</span></strong></p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p>Character Sprite</p></td>
+<td class="text-left"><p>Image(Sprite) that contains character face <strong><spane style="color:red">(required)</span></strong></p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>Submit</p></td>
+<td class="text-left"><p>Send request to make Chatalk animation</p></td>
+</tr>
+</tbody>
+</table>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p>Job List</p></th>
+<th class="head text-left"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p>Refresh</p></td>
+<td class="text-left"><p>Refresh your job list</p></td>
+</tr>
+</tbody>
+</table>
+<section id="constraints">
+<h3>Constraints<a class="headerlink" href="#constraints" title="Permalink to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Request Name: It cannot exceed 50 characters.</p></li>
+<li><p>Audio: Audio longer than 60 seconds is not allowed. Also, you can use only <a class="reference external" href="https://docs.unity3d.com/2021.3/Documentation/Manual/class-AudioClip.html">audio file that Unity Editor supports</a>.</p></li>
+<li><p>Image: The length of one side cannot exceed 2048, RGBA format, and read/write must be possible.</p></li>
+</ul>
+<p>For images constraints, please refer to the image below.</p>
+<p><img alt="images constraints" src="../_images/quick_start_image_constraints.png" /></p>
+<br>
+</section>
+</section>
+<section id="request">
+<h2>Request<a class="headerlink" href="#request" title="Permalink to this heading">¶</a></h2>
+<p><img alt="Chatalk Request" src="../_images/quick_start_05.png" />
+<br>(image reference: <a class="reference external" href="https://coraxdigitalart.itch.io/500-fantasy-character-portraits-realistic-human-heroes">500 fantasy character portraits realistic human heroes</a>)</p>
+<p><code class="docutils literal notranslate"><span class="pre">Submit</span></code> button will activate when you fill all required field(request name, audio clip and sprite).
+You can send a request by clicking <code class="docutils literal notranslate"><span class="pre">Submit</span></code> button.</p>
+<p><img alt="Chatalk JobList Requested" src="../_images/quick_start_06.png" />
+<img alt="Chatalk JobList Done" src="../_images/quick_start_07.png" /></p>
+<p>Your jobs are displayed at grid UI area.
+In-progress tasks appear dimmed (left), while completed tasks appear clearly (right).
+You can open job detail window clicking each job icon.</p>
+<p><img alt="Chatalk JobDetail Requested" src="../_images/quick_start_08.png" />
+<img alt="Chatalk JobDetail Done" src="../_images/quick_start_09.png" /></p>
+<p>Detail window shows information of requested job.
+If generation job is complete, the <code class="docutils literal notranslate"><span class="pre">Download</span></code> button will become active.</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head text-left"><p>UI label</p></th>
+<th class="head text-left"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-left"><p>Download</p></td>
+<td class="text-left"><p>Download mp4 video animation</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>Status</p></td>
+<td class="text-left"><p>the progress of the current task. (REQUESTED, PENDING, PROGRESSING, SUCCESS and ERROR)</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p>Requested Time</p></td>
+<td class="text-left"><p>Time the request was submitted</p></td>
+</tr>
+<tr class="row-odd"><td class="text-left"><p>Started Time</p></td>
+<td class="text-left"><p>Time the job started</p></td>
+</tr>
+<tr class="row-even"><td class="text-left"><p>Completed Time</p></td>
+<td class="text-left"><p>Time the job completed</p></td>
+</tr>
+</tbody>
+</table>
+<br>
+</section>
+<section id="download">
+<h2>Download<a class="headerlink" href="#download" title="Permalink to this heading">¶</a></h2>
+<p><img alt="Chatalk Download" src="../_images/quick_start_10.png" /></p>
+<p>You can download your video animation to <code class="docutils literal notranslate"><span class="pre">Assets/Murple/Chatalk/Resources</span></code> Clicking <code class="docutils literal notranslate"><span class="pre">Download</span></code> button.
+You can check generate video file in Unity Editor clicking image above.</p>
+<p><strong>Done!</strong> Now you can use the mp4 file as VideoClip.</p>
+<ul class="simple">
+<li><p>If you want to find which assets are supported, read <a class="reference internal" href="../Support/support.html"><span class="std std-doc">Third party support</span></a>.</p></li>
+<li><p>If you have any other questions, read <a class="reference internal" href="../Help/faq.html"><span class="std std-doc">FAQ</span></a>.</p></li>
+</ul>
+</section>
+</section>
+
+
+          </div>
+          <div class="page-nav">
+            <div class="inner"><ul class="page-nav">
+  <li class="prev">
+    <a href="../HowToGetAPIKey/how_to_get_api_key.html"
+       title="previous chapter">← How to Get API Key?</a>
+  </li>
+  <li class="next">
+    <a href="../Support/support.html"
+       title="next chapter">Third party support →</a>
+  </li>
+</ul><div class="footer" role="contentinfo">
+      &#169; Copyright 2023, Murple.
+    <br>
+    Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.3.0 with <a href="https://github.com/schettino72/sphinx_press_theme">Press Theme</a> 0.8.0.
+</div>
+            </div>
+          </div>
+      </page>
+    </div></div>
+    
+    
+  </body>
+</html>
