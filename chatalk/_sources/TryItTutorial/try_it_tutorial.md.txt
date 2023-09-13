@@ -1,0 +1,109 @@
+# Quick Start
+
+## Get Started
+
+![Chatalk Menu Path](/_static/images/TryItTutorial/quick_start_01.png "Chatalk Menu Path")
+
+Open Chatalk window from ``Window -> Murple -> Chatalk -> Chatalk Tool`` 
+
+
+![Chatalk Database](/_static/images/TryItTutorial/quick_start_02.png "Chatalk Database")
+
+If this is first time to use Chatalk, or database asset of Chatalk is missing, you should make Chatalk database asset.
+Make database asset to click ``Create Database`` button. If there is already database, please select your database.
+
+
+![Chatalk API Key Setting](/_static/images/TryItTutorial/quick_start_03.png "Chatalk API Key Setting")
+
+If you did not regist your Chatalk API key, the ``API Key`` input field will appear.
+Enter your Chatalk API key and click the ``Save`` button to proceed.
+If you do not have Chatalk API key, please read [How to Get API Key?](..\HowToGetAPIKey\how_to_get_api_key.md) page.
+
+|UI label|Description|
+|:---|:---|
+|API Key|Your Chatalk API key|
+|Save|Save the API key and proceed|
+|How to Get API Key?|Open sign up window|
+|?|Open [Chatalk Document](..\index.rst)|
+
+
+![Chatalk Tool](/_static/images/TryItTutorial/quick_start_04.png "Chatalk Tool")
+
+If you save valid API key, the Chatalk tool window appear. You can generate talking animation with this window.
+
+|Chatalk Info|Description|
+|:---|:---|
+|UserName|UserName of API key|
+|UserEmail|UserEmail of API key|
+|Settings|Show input field to change API key|
+|?|Open [Chatalk Document](..\index.rst)|
+
+|Request|Description|
+|:---|:---|
+|Request Name|name for identify each request **<span style="color:red">(required)</span>**|
+|Audio Clip|AudioClip that contains speech **<span style="color:red">(required)</span>**|
+|Character Sprite|Image(Sprite) that contains character face **<spane style="color:red">(required)</span>**|
+|Submit|Send request to make Chatalk animation|
+
+|Job List|Description|
+|:---|:---|
+|Refresh|Refresh your job list|
+
+### Constraints
+
+* Request Name: It cannot exceed 50 characters.
+* Audio: Audio longer than 60 seconds is not allowed. Also, you can use only [audio file that Unity Editor supports](https://docs.unity3d.com/2021.3/Documentation/Manual/class-AudioClip.html).
+* Image: The length of one side cannot exceed 2048, RGBA format, and read/write must be possible.
+
+For images constraints, please refer to the image below.
+
+![images constraints](/_static/images/TryItTutorial/quick_start_image_constraints.png "images constraints")
+
+<br>
+  
+## Request
+
+![Chatalk Request](/_static/images/TryItTutorial/quick_start_05.png "Chatalk Request")
+<br>(image reference: [500 fantasy character portraits realistic human heroes](https://coraxdigitalart.itch.io/500-fantasy-character-portraits-realistic-human-heroes))
+
+`Submit` button will activate when you fill all required field(request name, audio clip and sprite).
+You can send a request by clicking `Submit` button.
+
+
+![Chatalk JobList Requested](/_static/images/TryItTutorial/quick_start_06.png "Chatalk JobList Requested")
+![Chatalk JobList Done](/_static/images/TryItTutorial/quick_start_07.png "Chatalk JobList Done")
+
+Your jobs are displayed at grid UI area.
+In-progress tasks appear dimmed (left), while completed tasks appear clearly (right).
+You can open job detail window clicking each job icon.
+
+![Chatalk JobDetail Requested](/_static/images/TryItTutorial/quick_start_08.png "Chatalk JobDetail Requested")
+![Chatalk JobDetail Done](/_static/images/TryItTutorial/quick_start_09.png "Chatalk JobDetail Done")
+
+Detail window shows information of requested job.
+If generation job is complete, the `Download` button will become active.
+
+|UI label|Description|
+|:---|:---|
+|Download|Download mp4 video animation|
+|Status|the progress of the current task. (REQUESTED, PENDING, PROGRESSING, SUCCESS and ERROR)|
+|Requested Time|Time the request was submitted|
+|Started Time|Time the job started|
+|Completed Time|Time the job completed|
+
+<br>
+
+## Download
+
+![Chatalk Download](/_static/images/TryItTutorial/quick_start_10.png "Chatalk Download")
+
+You can download your video animation to `Assets/Murple/Chatalk/Resources` Clicking `Download` button.
+You can check generate video file in Unity Editor clicking image above.
+
+**Done!** Now you can use the mp4 file as VideoClip.
+
+
+
+* If you want to find which assets are supported, read [Third party support](../Support/support.rst).
+* If you have any other questions, read [FAQ](../Help/faq.md).
+

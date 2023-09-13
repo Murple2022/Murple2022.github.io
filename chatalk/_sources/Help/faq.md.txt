@@ -1,0 +1,32 @@
+# FAQ
+
+TODO : doc로 표현하기 힘들거나 자주 찾는 질문들에 대한 내용입니다.
+
+## Q. How do I use it?
+
+Please read [Quick start](..\TryItTutorial\try_it_tutorial.md) page.
+
+## Q. How do I get an API Key?
+
+Please read [How to Get API Key?](..\HowToGetAPIKey\how_to_get_api_key.md) page.
+
+## Q. I forgot my API Key.
+
+TBA
+
+## Q. I want to remove Chatalk from my project
+
+Just remove `Asset/Murple/Chatalk` directory.
+
+## Q. Invalid image/audio file
+
+There are some constraints to audio and image files.
+
+* Audio: Audio longer than 60 seconds is not allowed. Also, you can use only [audio file that Unity Editor supports](https://docs.unity3d.com/2021.3/Documentation/Manual/class-AudioClip.html).
+* Image: The length of one side cannot exceed 2048, RGBA format, and read/write must be possible.
+
+Also, current version cannot handle faces that are too abstract (deformed caricatures, anime-style characters, etc.)
+
+## Q. Can I use it for free?
+
+TBA

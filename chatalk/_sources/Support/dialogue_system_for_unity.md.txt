@@ -1,0 +1,158 @@
+# Dialogue System for Unity
+
+## Install packages
+
+
+```{warning}
+This package is a supplement package to support Pixel Crushers' [Dialogue System for Unity](https://assetstore.unity.com/packages/tools/behavior-ai/dialogue-system-for-unity-11672).
+The package must be included in your project. (If not, some script error occurs)
+```
+
+![Wizard Install](/_static/images/Support/DialogueSystemforUnity/dialogue_system_for_unity_install_01.png "Wizard Install")
+
+Import supplement package at `Assets/Plugins/Pixel Crushers/Dialogue System/Scripts/DialogueSystemAssemblyDefinitions.unitypackage` to setup assembly definition
+
+<br>
+
+![Wizard Install](/_static/images/Support/DialogueSystemforUnity/dialogue_system_for_unity_install_03.png "Wizard Install")
+
+Next, import supplement package at `Assets/Murple/Chatalk/ThirdPartySupport/Support_DialogueSystemForUnity.unitypackage`
+
+<br>
+
+![Wizard Install](/_static/images/Support/DialogueSystemforUnity/dialogue_system_for_unity_install_04.png "Wizard Install")
+
+You can find Chatalk menu in `Winodw -> Murple -> Chatalk -> Support -> Dialgoue System for Unity` when installation is complete.
+
+<br>
+
+## Open wizard window
+
+![Wizard Path](/_static/images/Support/DialogueSystemforUnity/dialogue_system_for_unity_wizard_01.png "Wizard Path")
+
+Open Dialogue System for Unity Wizard from `Window -> Murple -> Chatalk -> Support -> Dialogue System for Unity`
+<br>
+
+### Initialize step
+
+![Wizard Chatalk Database](/_static/images/Support/DialogueSystemforUnity/dialogue_system_for_unity_wizard_02.png "Wizard Chatalk Database")
+
+If this is first time to use Chatalk, or database asset of Chatalk is missing, you should make Chatalk database asset.
+Make database asset to click ``Create Database`` button. If there is already database, please select your database.
+
+<br>
+
+![Wizard DialogueSystem Page](/_static/images/Support/DialogueSystemforUnity/dialogue_system_for_unity_wizard_03.png "Wizard DialogueSystem Page")
+
+Select `Controller` GameObject and `Database` Asset of  Dialogue System to apply Chatalk.
+If you select vaild GameObject and Asset, you can proceed to next step.
+
+This tutorial uses the **DemoScene**\(**DemoScene1.unity**\) from the Dialogue System for Unity. Please select `Controller` and `Database` used in the demo scene.
+
+<br>
+
+### Actor step
+
+![Wizard Actor Page](/_static/images/Support/DialogueSystemforUnity/dialogue_system_for_unity_wizard_04.png "Wizard Actor Page")
+
+Select `Actor` who want to make him/her/its *talking* using Chatalk.
+For this tutorial, select **Private Hart**. In the tutorial, we change the Sprite to apply Chatalk.
+
+If you select vaild `Actor` (has valid sprite or texture that describe actor's appearance), you can proceed to next step.
+
+<br>
+
+### Conversation step
+
+![Wizard Conversation Page](/_static/images/Support/DialogueSystemforUnity/dialogue_system_for_unity_wizard_05.png "Wizard Conversation Page")
+
+A list of `Conversations` that `Actor` involved will appear at left. Becuase Chatalk makes talking animation using audio, you can select only `Conversation` that contains audio file.
+If you select `Conversations` that has audio files, you can proceed to generation step.
+
+<br>
+
+### API Key
+
+![Wizard API Key Setting](/_static/images/Support/DialogueSystemforUnity/dialogue_system_for_unity_wizard_06.png "Wizard API Key Setting")
+
+If you did not regist your Chatalk API key, the ``API Key`` input field will appear.
+Enter your Chatalk API key and click the ``Save`` button to proceed.
+If you do not have Chatalk API key, please read [How to Get API Key?](..\HowToGetAPIKey\how_to_get_api_key.md) page.
+
+<br>
+
+###  Generation Step
+
+![Wizard Generate Page Requested](/_static/images/Support/DialogueSystemforUnity/dialogue_system_for_unity_wizard_07.png "Wizard Generate Page Requested")
+
+You can proceed with batch request operation by clicking the `Generate` button.
+
+|Chatalk Info|Description|
+|:---|:---|
+|UserName|UserName of API key|
+|UserEmail|UserEmail of API key|
+|Settings|Show input field to change API key|
+
+|Chatalk Request|Description|
+|:---|:---|
+|Image|Portrait image of selected Actor|
+|Actor|Name of selected Actor|
+|Conversation|Title of selected Conversation|
+|Entry Count|Number of entries to apply Chatalk|
+|Total Audio Length|Total audio length|
+|Remove exist task|If there is already a task that using same Actor and Conversation, you have to remove previous task to re-generate animation.|
+|Generate|Send multiple request to generate animation|
+
+|Job List|Description|
+|:---|:---|
+|Refresh|Refresh your job list|
+
+<br>
+
+![Wizard Task Jump](/_static/images/Support/DialogueSystemforUnity/dialogue_system_for_unity_wizard_08.png "Wizard Task Jump")
+
+
+Generate takes time. Do not worry. You can close wizard window to process your work and can resume Chatalk task at first step by clicking `▶` button.
+
+|UI|Description|
+|:---|:---|
+|▶|Go to the Generate Page with the previously task|
+|X|Delete previously task|
+
+<br>
+
+![Wizard Generate Page Done](/_static/images/Support/DialogueSystemforUnity/dialogue_system_for_unity_wizard_09.png "Wizard Generate Page Done")
+
+If all generation jobs are completed, you can proceed by clicking the `Next` button.
+
+<br>
+
+### Apply Step
+
+![Wizard Apply Page](/_static/images/Support/DialogueSystemforUnity/dialogue_system_for_unity_wizard_10.png "Wizard Apply Page")
+
+
+When you enter the Apply Page, all mp4 files of the task are downloaded.
+You need to select `UI Prefab` to apply Chatalk video player.
+The prefab must contain `Standard Dialogue UI components` and `Portrait Image`.
+
+If all mp4 files are downloaded and you select valid `UI Prefab`, the message ``Ready.`` will appear and you can apply it by clicking the `Apply` button.
+
+In the tutorial, `Wheel Standard Dialogue UI Prefab` used in `DemoScene1.unity` was used.
+
+<br>
+
+![Wizard Done](/_static/images/Support/DialogueSystemforUnity/dialogue_system_for_unity_wizard_11.png "Wizard Done")
+
+When application is complete, a completion message will appear.
+
+<br>
+
+## Result
+
+![Applied Scene](/_static/images/Support/DialogueSystemforUnity/dialogue_system_for_unity_wizard_12.gif "Applied Scene")
+
+This is the play capture using Chatalk animation.
+In order to view the Chatalk animation larger, we adjusted the size and position of the **Portrait Image UI** in **DemoScene1.unity**.
+
+<br>

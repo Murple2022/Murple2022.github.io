@@ -1,0 +1,14 @@
+Release Note
+=============
+
+TODO : 사용자를 위한 릴리스 노트입니다.
+
+Known Issues
+-------------
+
+.. toctree::
+    :maxdepth: 1
+
+    known_issues.md
+
+..

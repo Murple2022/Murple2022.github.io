@@ -1,0 +1,40 @@
+# How to Get API Key?
+
+## Sign Up
+
+![API Setting](/_static/images/HowToGetAPIKey/how_to_get_api_key_01.png "API Setting")
+
+If you do not have Chatalk API key, click ``How to Get API Key?`` button to signup.
+
+
+![API Get Email](/_static/images/HowToGetAPIKey/how_to_get_api_key_02.png "API Get Email")
+
+A small window will appear where you can enter your **name** and **email**. Please fill the form and click ``Send Email`` to proceed. 
+
+|UI label|Description|
+|:---|:---|
+|User Name|your nickname|
+|User Email|Email to receive API Key|
+|Send Email|Receive verification email|
+|Privacy Policy|Open Chatalk privacy policy document.|
+
+
+
+If we send verification email to your address successfully, a dialog box below will appear.
+
+![API Done](/_static/images/HowToGetAPIKey/how_to_get_api_key_03.png "API Done")
+
+
+## Get API Key
+
+![API Send Email](/_static/images/HowToGetAPIKey/how_to_get_api_key_04.png "API Send Email")
+
+Finally, you can receive API key using verification link `clicking here`.
+
+![API Setting](/_static/images/HowToGetAPIKey/how_to_get_api_key_01.png "API Setting")
+
+Please write your API key and click `Save` button to use Chatalk.
+
+
+If you have any other questions, read [FAQ](../Help/faq.md).
+

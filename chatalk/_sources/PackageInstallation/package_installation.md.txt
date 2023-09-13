@@ -1,0 +1,35 @@
+# Package Installation
+
+## Unity Asset Store
+
+*Coming Soon*
+
+## Package Download
+
+<a href="">
+    <span style="display: block">Download "Chatalk 1.0.0 for Unity 2021+"
+        <small style="display: block">filename.unitypackage - **.** MB</small>
+    </span>
+</a>
+
+
+## Installation
+
+![Dependency](/_static/images/PackageInstallation/dependency_warning.png "Dependency")
+
+Chatalk requires the Editor Coroutines package. If your project does not have com.unity.editorcoroutines, please click `Install/Upgrade` button.
+
+
+![Installation Import](/_static/images/PackageInstallation/installation_02.png "Installation Import")
+
+Click ``Import`` button to install chatalk package.
+
+
+
+![Installation Path](/_static/images/PackageInstallation/installation_03.png "Installation Path")
+
+You can find Chatalk menu in ``Window -> Murple -> Chatalk -> Chatalk Tool`` when installation is complete.
+
+* If you want to know structure of Chatalk package, read [package structure](../PackageConfiguration/package_configuration.md).
+* If you want to use Chatalk right now, read [Quick Start](../TryItTutorial/try_it_tutorial.md).
+
