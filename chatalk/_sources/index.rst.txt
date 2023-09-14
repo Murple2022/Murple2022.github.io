@@ -6,9 +6,12 @@
 Welcome to Murple Chatalk's documentation!
 ==========================================
 
-The Chatalk is audio-driven animation generation tool for Unity. You can make **animated** portrait using portrait image and audio.
+Chatalk is a Speech To Video Animation AI Tool. This asset can generate video clip from character portrait and speech audio. Change your static image portrait to dynamic, talking video animation!
 
-Unity Asset store *Coming Soon*
+
+**Unity Asset store** - *Coming Soon*
+
+
 
 `Murple webpage <http://murple.ai/>`_
 

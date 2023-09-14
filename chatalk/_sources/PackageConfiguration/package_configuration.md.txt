@@ -1,9 +1,9 @@
-# Package Configuration
+# Package Structure
 
 
 ```{note}
-This page do not describe script of Chatalk.
-It only explain directories that need to know to use Chatalk.
+This page does not describe script of Chatalk. 
+It only explains directories that need to know in order to use Chatalk.
 ```
   
 

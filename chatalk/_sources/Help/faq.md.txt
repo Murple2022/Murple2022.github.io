@@ -1,7 +1,5 @@
 # FAQ
 
-TODO : doc로 표현하기 힘들거나 자주 찾는 질문들에 대한 내용입니다.
-
 ## Q. How do I use it?
 
 Please read [Quick start](..\TryItTutorial\try_it_tutorial.md) page.
