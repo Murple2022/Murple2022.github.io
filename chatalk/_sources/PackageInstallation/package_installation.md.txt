@@ -28,7 +28,7 @@ Click ``Import`` button to install chatalk package.
 
 ![Installation Path](/_static/images/PackageInstallation/installation_03.png "Installation Path")
 
-You can find Chatalk menu in ``Window -> Murple -> Chatalk -> Chatalk Tool`` when installation is complete.
+You can find Chatalk menu in `Window -> Murple -> Chatalk -> Chatalk Tool` after installation is completed.
 
 * If you want to know structure of Chatalk package, read [package structure](../PackageConfiguration/package_configuration.md).
 * If you want to use Chatalk right now, read [Quick Start](../TryItTutorial/try_it_tutorial.md).

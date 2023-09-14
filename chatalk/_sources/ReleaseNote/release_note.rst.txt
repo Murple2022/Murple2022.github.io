@@ -1,14 +1,16 @@
 Release Note
 =============
 
-TODO : 사용자를 위한 릴리스 노트입니다.
 
-Known Issues
--------------
+---------
+ver 1.0.0
+---------
 
-.. toctree::
-    :maxdepth: 1
+First release
 
-    known_issues.md
+- Generate talking video using single image file and audio file
+- Language independency: this generation tool is multilingual.
+- Third party support: currentlly, we support Dialogue System for Unity integration
+
 
 ..
