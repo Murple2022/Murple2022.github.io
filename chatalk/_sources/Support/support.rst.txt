@@ -2,7 +2,7 @@ Third party support
 ===================
 
 Apply Chatalk video animation to your project is not easy, especially when your project has a lot of conversation resources.
-If you use third party asset to mange your conversation resources and Chatalk supports the asset, you can use Chatlk more conveniently using customized UI tools for the asset.
+If you use third party asset to manage your conversation resources and Chatalk supports the asset, you can use Chatalk more conveniently using customized UI tools for the asset.
 
 
 List of third party assets supported by Chatalk below.

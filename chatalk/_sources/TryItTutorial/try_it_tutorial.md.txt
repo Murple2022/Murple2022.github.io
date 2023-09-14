@@ -97,8 +97,8 @@ If generation job is complete, the `Download` button will become active.
 
 ![Chatalk Download](/_static/images/TryItTutorial/quick_start_10.png "Chatalk Download")
 
-You can download your video animation to `Assets/Murple/Chatalk/Resources` Clicking `Download` button.
-You can check generate video file in Unity Editor clicking image above.
+You can download your video animation to `Assets/Murple/Chatalk/Resources` by clicking `Download` button. 
+You can check the generated video file in Unity Editor by clicking the image above
 
 **Done!** Now you can use the mp4 file as VideoClip.
 
