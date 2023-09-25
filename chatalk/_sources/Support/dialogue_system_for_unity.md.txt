@@ -28,6 +28,13 @@ You can find Chatalk menu in `Winodw -> Murple -> Chatalk -> Support -> Dialgoue
 
 ## Open wizard window
 
+![Open scene](/_static/images/Support/DialogueSystemforUnity/dialogue_system_for_unity_install_pre.png "Open scene")
+
+Before you start, open the demo Scene of the Dialogue System in `Assets/Plugins/Pixel Crushers/Dialogue System/Demo/Scenes/DemoScene1.unity`
+
+<br>
+
+
 ![Wizard Path](/_static/images/Support/DialogueSystemforUnity/dialogue_system_for_unity_wizard_01.png "Wizard Path")
 
 Open Dialogue System for Unity Wizard from `Window -> Murple -> Chatalk -> Support -> Dialogue System for Unity`
@@ -59,6 +66,16 @@ Select `Actor` who want to make him/her/its *talking* using Chatalk.
 For this tutorial, select **Private Hart**. In the tutorial, we change the Sprite to apply Chatalk.
 
 If you select vaild `Actor` (has valid sprite or texture that describe actor's appearance), you can proceed to next step.
+
+<br>
+
+### Constraints
+
+The Sprite used in Actor must meet the following constraints.
+
+ - Asset: Texture type should be `Sprite (2D and UI)`.
+ - Image size: The length of one side cannot exceed 2048.
+ - Image style: [Image limitations](/Limitations/image_limitations.md)
 
 <br>
 

@@ -1,0 +1,24 @@
+# Limitations
+
+## Image limitations
+
+Current version supports human-like characters. For now Chatalk cannot handle faces that are too abstract (monsters, deformed caricatures, anime-style characters, etc.)
+
+* Supported character styles: Images that can extract landmarks such as human eyes, nose, mouth, etc.
+* **Unsupported** character styles: Images of machines, monsters, anime-style characters, etc.
+
+
+**Examples**
+
+Supported character styles:
+
+![supported_000](/_static/images/ExampleImages/supported_000.png "supported_000")
+![supported_001](/_static/images/ExampleImages/supported_001.png "supported_001")
+
+
+
+Unsupported character styles:
+
+![unsupported_000](/_static/images/ExampleImages/unsupported_000.png "unsupported_000")
+![unsupported_001](/_static/images/ExampleImages/unsupported_001.png "unsupported_001")
+![unsupported_002](/_static/images/ExampleImages/unsupported_002.png "unsupported_002")

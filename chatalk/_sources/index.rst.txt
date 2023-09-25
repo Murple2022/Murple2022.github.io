@@ -26,5 +26,5 @@ Chatalk is a Speech To Video Animation AI Tool. This asset can generate video cl
    Support/support.rst
    Help/help.rst
    ReleaseNote/release_note.rst
-
+   Limitations/image_limitations.md
 ..

@@ -53,11 +53,10 @@ If you save valid API key, the Chatalk tool window appear. You can generate talk
 
 * Request Name: It cannot exceed 50 characters.
 * Audio: Audio longer than 60 seconds is not allowed. Also, you can use only [audio file that Unity Editor supports](https://docs.unity3d.com/2021.3/Documentation/Manual/class-AudioClip.html).
-* Image: The length of one side cannot exceed 2048, RGBA format, and read/write must be possible.
-
-For images constraints, please refer to the image below.
-
-![images constraints](/_static/images/TryItTutorial/quick_start_image_constraints.png "images constraints")
+* Image
+   - Asset: Texture type should be `Sprite (2D and UI)`.
+   - Size: The length of one side cannot exceed 2048.
+   - Style: [Image limitations](/Limitations/image_limitations.md)
 
 <br>
   
@@ -97,8 +96,8 @@ If generation job is complete, the `Download` button will become active.
 
 ![Chatalk Download](/_static/images/TryItTutorial/quick_start_10.png "Chatalk Download")
 
-You can download your video animation to `Assets/Murple/Chatalk/Resources` Clicking `Download` button.
-You can check generate video file in Unity Editor clicking image above.
+You can download your video animation to `Assets/Murple/Chatalk/Resources` by clicking `Download` button. 
+You can check the generated video file in Unity Editor by clicking the image above
 
 **Done!** Now you can use the mp4 file as VideoClip.
 
