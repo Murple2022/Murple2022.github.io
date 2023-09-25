@@ -1,5 +1,10 @@
 # Errors Guide
 
+### InvalidOperationException: Insecure connection not allowed
+
+![http setup](/_static/images/ErrorGuide/error_Insecure_connection_not_allowed.png "http setup")
+
+
 ### 401 Unauthorized
 
 API Key is invalid. Please check again.
