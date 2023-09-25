@@ -87,7 +87,7 @@
         
           <li class="toctree-l1 ">
             
-              <a href="../PackageConfiguration/package_configuration.html" class="reference internal ">Package Configuration</a>
+              <a href="../PackageConfiguration/package_configuration.html" class="reference internal ">Package Structure</a>
             
 
             
@@ -133,6 +133,15 @@
           <li class="toctree-l1 ">
             
               <a href="../ReleaseNote/release_note.html" class="reference internal ">Release Note</a>
+            
+
+            
+          </li>
+
+        
+          <li class="toctree-l1 ">
+            
+              <a href="../Limitations/image_limitations.html" class="reference internal ">Limitations</a>
             
 
             
@@ -193,6 +202,9 @@ The package must be included in your project. (If not, some script error occurs)
 </section>
 <section id="open-wizard-window">
 <h2>Open wizard window<a class="headerlink" href="#open-wizard-window" title="Permalink to this heading">¶</a></h2>
+<p><img alt="Open scene" src="../_images/dialogue_system_for_unity_install_pre.png" /></p>
+<p>Before you start, open the demo Scene of the Dialogue System in <code class="docutils literal notranslate"><span class="pre">Assets/Plugins/Pixel</span> <span class="pre">Crushers/Dialogue</span> <span class="pre">System/Demo/Scenes/DemoScene1.unity</span></code></p>
+<br>
 <p><img alt="Wizard Path" src="../_images/dialogue_system_for_unity_wizard_01.png" /></p>
 <p>Open Dialogue System for Unity Wizard from <code class="docutils literal notranslate"><span class="pre">Window</span> <span class="pre">-&gt;</span> <span class="pre">Murple</span> <span class="pre">-&gt;</span> <span class="pre">Chatalk</span> <span class="pre">-&gt;</span> <span class="pre">Support</span> <span class="pre">-&gt;</span> <span class="pre">Dialogue</span> <span class="pre">System</span> <span class="pre">for</span> <span class="pre">Unity</span></code>
 <br></p>
@@ -214,6 +226,16 @@ If you select vaild GameObject and Asset, you can proceed to next step.</p>
 <p>Select <code class="docutils literal notranslate"><span class="pre">Actor</span></code> who want to make him/her/its <em>talking</em> using Chatalk.
 For this tutorial, select <strong>Private Hart</strong>. In the tutorial, we change the Sprite to apply Chatalk.</p>
 <p>If you select vaild <code class="docutils literal notranslate"><span class="pre">Actor</span></code> (has valid sprite or texture that describe actor’s appearance), you can proceed to next step.</p>
+<br>
+</section>
+<section id="constraints">
+<h3>Constraints<a class="headerlink" href="#constraints" title="Permalink to this heading">¶</a></h3>
+<p>The Sprite used in Actor must meet the following constraints.</p>
+<ul class="simple">
+<li><p>Asset: Texture type should be <code class="docutils literal notranslate"><span class="pre">Sprite</span> <span class="pre">(2D</span> <span class="pre">and</span> <span class="pre">UI)</span></code>.</p></li>
+<li><p>Image size: The length of one side cannot exceed 2048.</p></li>
+<li><p>Image style: <a class="reference internal" href="../Limitations/image_limitations.html"><span class="std std-doc">Image limitations</span></a></p></li>
+</ul>
 <br>
 </section>
 <section id="conversation-step">

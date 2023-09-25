@@ -149,6 +149,15 @@
           </li>
 
         
+          <li class="toctree-l1 ">
+            
+              <a href="../Limitations/image_limitations.html" class="reference internal ">Limitations</a>
+            
+
+            
+          </li>
+
+        
       </ul>
     </div>
   
@@ -275,10 +284,14 @@ If you do not have Chatalk API key, please read <a class="reference internal" hr
 <ul class="simple">
 <li><p>Request Name: It cannot exceed 50 characters.</p></li>
 <li><p>Audio: Audio longer than 60 seconds is not allowed. Also, you can use only <a class="reference external" href="https://docs.unity3d.com/2021.3/Documentation/Manual/class-AudioClip.html">audio file that Unity Editor supports</a>.</p></li>
-<li><p>Image: The length of one side cannot exceed 2048, RGBA format, and read/write must be possible.</p></li>
+<li><p>Image</p>
+<ul>
+<li><p>Asset: Texture type should be <code class="docutils literal notranslate"><span class="pre">Sprite</span> <span class="pre">(2D</span> <span class="pre">and</span> <span class="pre">UI)</span></code>.</p></li>
+<li><p>Size: The length of one side cannot exceed 2048.</p></li>
+<li><p>Style: <a class="reference internal" href="../Limitations/image_limitations.html"><span class="std std-doc">Image limitations</span></a></p></li>
 </ul>
-<p>For images constraints, please refer to the image below.</p>
-<p><img alt="images constraints" src="../_images/quick_start_image_constraints.png" /></p>
+</li>
+</ul>
 <br>
 </section>
 </section>

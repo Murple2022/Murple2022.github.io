@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1"><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-      <title>Errors Guide</title>
+      <title>Limitations</title>
     
           <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
           <link rel="stylesheet" href="../_static/theme.css " type="text/css" />
@@ -24,8 +24,7 @@
     
   <link rel="index" title="Index" href="../genindex.html" />
   <link rel="search" title="Search" href="../search.html" />
-  <link rel="next" title="Release Note" href="../ReleaseNote/release_note.html" />
-  <link rel="prev" title="FAQ" href="faq.html" /> 
+  <link rel="prev" title="Release Note" href="../ReleaseNote/release_note.html" /> 
   </head>
 
   <body>
@@ -74,7 +73,7 @@
       <p class="caption">
         <span class="caption-text"><a href="../index.html#welcome-to-murple-chatalk-s-documentation">Overview</a></span>
       </p>
-      <ul class="">
+      <ul class="current">
         
           <li class="toctree-l1 ">
             
@@ -123,7 +122,7 @@
         
           <li class="toctree-l1 ">
             
-              <a href="help.html" class="reference internal ">Help</a>
+              <a href="../Help/help.html" class="reference internal ">Help</a>
             
 
             
@@ -135,6 +134,21 @@
               <a href="../ReleaseNote/release_note.html" class="reference internal ">Release Note</a>
             
 
+            
+          </li>
+
+        
+          <li class="toctree-l1 current">
+            
+              <a href="#" class="reference internal current">Limitations</a>
+            
+
+            
+              <ul>
+                
+                  <li class="toctree-l2"><a href="#image-limitations" class="reference internal">Image limitations</a></li>
+                
+              </ul>
             
           </li>
 
@@ -151,20 +165,14 @@
   <ul class="breadcrumbs">
     <li><a href="../index.html">Docs</a> &raquo;</li>
     
-      <li><a href="help.html">Help</a> &raquo;</li>
-    
-    <li>Errors Guide</li>
+    <li>Limitations</li>
   </ul>
   
 
   <ul class="page-nav">
   <li class="prev">
-    <a href="faq.html"
-       title="previous chapter">← FAQ</a>
-  </li>
-  <li class="next">
     <a href="../ReleaseNote/release_note.html"
-       title="next chapter">Release Note →</a>
+       title="previous chapter">← Release Note</a>
   </li>
 </ul>
   
@@ -172,25 +180,23 @@
 <hr>
           <div class="content" role="main" v-pre>
             
-  <section id="errors-guide">
-<h1>Errors Guide<a class="headerlink" href="#errors-guide" title="Permalink to this heading">¶</a></h1>
-<section id="unauthorized">
-<h2>401 Unauthorized<a class="headerlink" href="#unauthorized" title="Permalink to this heading">¶</a></h2>
-<p>API Key is invalid. Please check again.</p>
-</section>
-<section id="payment-required">
-<h2>402 Payment Required<a class="headerlink" href="#payment-required" title="Permalink to this heading">¶</a></h2>
-<p>Your account has reached its usage limit.</p>
-</section>
-<section id="payload-too-large">
-<h2>413 Payload Too Large<a class="headerlink" href="#payload-too-large" title="Permalink to this heading">¶</a></h2>
-<p>If you use too large file(image or audio), 413 error occurs.
-Resize character image or slice audio file and try again.</p>
-</section>
-<section id="xx-server-errors">
-<h2>5xx server errors<a class="headerlink" href="#xx-server-errors" title="Permalink to this heading">¶</a></h2>
-<p>A problem has occurred with the server. Please try again later.
-If the same problem repeats, please contact us.</p>
+  <section id="limitations">
+<h1>Limitations<a class="headerlink" href="#limitations" title="Permalink to this heading">¶</a></h1>
+<section id="image-limitations">
+<h2>Image limitations<a class="headerlink" href="#image-limitations" title="Permalink to this heading">¶</a></h2>
+<p>Current version supports human-like characters. For now Chatalk cannot handle faces that are too abstract (monsters, deformed caricatures, anime-style characters, etc.)</p>
+<ul class="simple">
+<li><p>Supported character styles: Images that can extract landmarks such as human eyes, nose, mouth, etc.</p></li>
+<li><p><strong>Unsupported</strong> character styles: Images of machines, monsters, anime-style characters, etc.</p></li>
+</ul>
+<p><strong>Examples</strong></p>
+<p>Supported character styles:</p>
+<p><img alt="supported_000" src="../_images/supported_000.png" />
+<img alt="supported_001" src="../_images/supported_001.png" /></p>
+<p>Unsupported character styles:</p>
+<p><img alt="unsupported_000" src="../_images/unsupported_000.png" />
+<img alt="unsupported_001" src="../_images/unsupported_001.png" />
+<img alt="unsupported_002" src="../_images/unsupported_002.png" /></p>
 </section>
 </section>
 
@@ -199,12 +205,8 @@ If the same problem repeats, please contact us.</p>
           <div class="page-nav">
             <div class="inner"><ul class="page-nav">
   <li class="prev">
-    <a href="faq.html"
-       title="previous chapter">← FAQ</a>
-  </li>
-  <li class="next">
     <a href="../ReleaseNote/release_note.html"
-       title="next chapter">Release Note →</a>
+       title="previous chapter">← Release Note</a>
   </li>
 </ul><div class="footer" role="contentinfo">
       &#169; Copyright 2023, Murple.
